@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B43BDD11C9B27B500E8D308 /* pdcrypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B43BDD01C9B27B500E8D308 /* pdcrypto.c */; };
+		8B43BDD91C9B360500E8D308 /* pdcrypto_digest_final.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B43BDD71C9B360500E8D308 /* pdcrypto_digest_final.c */; };
+		8B43BDDA1C9B360500E8D308 /* pdcrypto_digest_final.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B43BDD81C9B360500E8D308 /* pdcrypto_digest_final.h */; };
+		8BB528D51C9B3A0500E4B776 /* pdcrypto_md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BB528D31C9B3A0500E4B776 /* pdcrypto_md5.c */; };
+		8BB528D91C9B3B4B00E4B776 /* pdcrypto_md5_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB528D71C9B3B4B00E4B776 /* pdcrypto_md5_impl.cpp */; };
+		8BB528DD1C9B484100E4B776 /* pdcrypto_digest_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BB528DB1C9B484100E4B776 /* pdcrypto_digest_init.c */; };
+		8BB528DE1C9B484100E4B776 /* pdcrypto_digest_init.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB528DC1C9B484100E4B776 /* pdcrypto_digest_init.h */; };
+		8BB528E11C9B487600E4B776 /* pdcrypto_digest_update.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BB528DF1C9B487600E4B776 /* pdcrypto_digest_update.c */; };
+		8BB528E21C9B487600E4B776 /* pdcrypto_digest_update.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB528E01C9B487600E4B776 /* pdcrypto_digest_update.h */; };
+		8BB528FB1C9B7B5700E4B776 /* pdcrypto_sha1_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB528F91C9B7B5700E4B776 /* pdcrypto_sha1_impl.cpp */; };
+		8BB528FC1C9B7B5700E4B776 /* pdcrypto_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BB528FA1C9B7B5700E4B776 /* pdcrypto_sha1.c */; };
+		8BB528FF1C9C21F600E4B776 /* pdcrypto_dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BB528FD1C9C21F600E4B776 /* pdcrypto_dummy.c */; };
+		8BB529001C9C21F600E4B776 /* pdcrypto_dummy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB528FE1C9C21F600E4B776 /* pdcrypto_dummy.h */; };
+		8BB529051C9E02BC00E4B776 /* aes128.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BB529011C9E02BC00E4B776 /* aes128.c */; };
+		8BB529061C9E02BC00E4B776 /* aes128.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB529021C9E02BC00E4B776 /* aes128.h */; };
+		8BB529071C9E02BC00E4B776 /* pdcrypto_aes_ecb.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BB529031C9E02BC00E4B776 /* pdcrypto_aes_ecb.c */; };
+		8BB5290A1C9E08B000E4B776 /* pdcrypto_aes_cbc.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BB529091C9E08B000E4B776 /* pdcrypto_aes_cbc.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B43BDCB1C9B27B500E8D308 /* pdcrypto.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdcrypto.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B43BDCF1C9B27B500E8D308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B43BDD01C9B27B500E8D308 /* pdcrypto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pdcrypto.c; sourceTree = "<group>"; };
+		8B43BDD71C9B360500E8D308 /* pdcrypto_digest_final.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdcrypto_digest_final.c; sourceTree = "<group>"; };
+		8B43BDD81C9B360500E8D308 /* pdcrypto_digest_final.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdcrypto_digest_final.h; sourceTree = "<group>"; };
+		8BB528D31C9B3A0500E4B776 /* pdcrypto_md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdcrypto_md5.c; sourceTree = "<group>"; };
+		8BB528D71C9B3B4B00E4B776 /* pdcrypto_md5_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pdcrypto_md5_impl.cpp; sourceTree = "<group>"; };
+		8BB528DB1C9B484100E4B776 /* pdcrypto_digest_init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdcrypto_digest_init.c; sourceTree = "<group>"; };
+		8BB528DC1C9B484100E4B776 /* pdcrypto_digest_init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdcrypto_digest_init.h; sourceTree = "<group>"; };
+		8BB528DF1C9B487600E4B776 /* pdcrypto_digest_update.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdcrypto_digest_update.c; sourceTree = "<group>"; };
+		8BB528E01C9B487600E4B776 /* pdcrypto_digest_update.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdcrypto_digest_update.h; sourceTree = "<group>"; };
+		8BB528F91C9B7B5700E4B776 /* pdcrypto_sha1_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pdcrypto_sha1_impl.cpp; sourceTree = "<group>"; };
+		8BB528FA1C9B7B5700E4B776 /* pdcrypto_sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdcrypto_sha1.c; sourceTree = "<group>"; };
+		8BB528FD1C9C21F600E4B776 /* pdcrypto_dummy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdcrypto_dummy.c; sourceTree = "<group>"; };
+		8BB528FE1C9C21F600E4B776 /* pdcrypto_dummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdcrypto_dummy.h; sourceTree = "<group>"; };
+		8BB529011C9E02BC00E4B776 /* aes128.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes128.c; sourceTree = "<group>"; };
+		8BB529021C9E02BC00E4B776 /* aes128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes128.h; sourceTree = "<group>"; };
+		8BB529031C9E02BC00E4B776 /* pdcrypto_aes_ecb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdcrypto_aes_ecb.c; sourceTree = "<group>"; };
+		8BB529091C9E08B000E4B776 /* pdcrypto_aes_cbc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pdcrypto_aes_cbc.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B43BDC71C9B27B500E8D308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B43BDC11C9B27B500E8D308 = {
+			isa = PBXGroup;
+			children = (
+				8B43BDCD1C9B27B500E8D308 /* pdcrypto */,
+				8B43BDCC1C9B27B500E8D308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B43BDCC1C9B27B500E8D308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B43BDCB1C9B27B500E8D308 /* pdcrypto.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B43BDCD1C9B27B500E8D308 /* pdcrypto */ = {
+			isa = PBXGroup;
+			children = (
+				8BB529091C9E08B000E4B776 /* pdcrypto_aes_cbc.c */,
+				8BB529031C9E02BC00E4B776 /* pdcrypto_aes_ecb.c */,
+				8BB529021C9E02BC00E4B776 /* aes128.h */,
+				8BB529011C9E02BC00E4B776 /* aes128.c */,
+				8BB528FD1C9C21F600E4B776 /* pdcrypto_dummy.c */,
+				8BB528FE1C9C21F600E4B776 /* pdcrypto_dummy.h */,
+				8BB528FA1C9B7B5700E4B776 /* pdcrypto_sha1.c */,
+				8BB528F91C9B7B5700E4B776 /* pdcrypto_sha1_impl.cpp */,
+				8BB528D71C9B3B4B00E4B776 /* pdcrypto_md5_impl.cpp */,
+				8B43BDD01C9B27B500E8D308 /* pdcrypto.c */,
+				8B43BDCE1C9B27B500E8D308 /* Supporting Files */,
+				8B43BDD71C9B360500E8D308 /* pdcrypto_digest_final.c */,
+				8B43BDD81C9B360500E8D308 /* pdcrypto_digest_final.h */,
+				8BB528D31C9B3A0500E4B776 /* pdcrypto_md5.c */,
+				8BB528DB1C9B484100E4B776 /* pdcrypto_digest_init.c */,
+				8BB528DC1C9B484100E4B776 /* pdcrypto_digest_init.h */,
+				8BB528DF1C9B487600E4B776 /* pdcrypto_digest_update.c */,
+				8BB528E01C9B487600E4B776 /* pdcrypto_digest_update.h */,
+			);
+			path = pdcrypto;
+			sourceTree = "<group>";
+		};
+		8B43BDCE1C9B27B500E8D308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B43BDCF1C9B27B500E8D308 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B43BDC81C9B27B500E8D308 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43BDDA1C9B360500E8D308 /* pdcrypto_digest_final.h in Headers */,
+				8BB528E21C9B487600E4B776 /* pdcrypto_digest_update.h in Headers */,
+				8BB529001C9C21F600E4B776 /* pdcrypto_dummy.h in Headers */,
+				8BB529061C9E02BC00E4B776 /* aes128.h in Headers */,
+				8BB528DE1C9B484100E4B776 /* pdcrypto_digest_init.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B43BDCA1C9B27B500E8D308 /* pdcrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B43BDD41C9B27B500E8D308 /* Build configuration list for PBXNativeTarget "pdcrypto" */;
+			buildPhases = (
+				8B43BDC61C9B27B500E8D308 /* Sources */,
+				8B43BDC71C9B27B500E8D308 /* Frameworks */,
+				8B43BDC81C9B27B500E8D308 /* Headers */,
+				8B43BDC91C9B27B500E8D308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pdcrypto;
+			productName = pdcrypto;
+			productReference = 8B43BDCB1C9B27B500E8D308 /* pdcrypto.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B43BDC21C9B27B500E8D308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = puredarwin;
+				TargetAttributes = {
+					8B43BDCA1C9B27B500E8D308 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B43BDC51C9B27B500E8D308 /* Build configuration list for PBXProject "pdcrypto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B43BDC11C9B27B500E8D308;
+			productRefGroup = 8B43BDCC1C9B27B500E8D308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B43BDCA1C9B27B500E8D308 /* pdcrypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B43BDC91C9B27B500E8D308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B43BDC61C9B27B500E8D308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB528D51C9B3A0500E4B776 /* pdcrypto_md5.c in Sources */,
+				8BB528FC1C9B7B5700E4B776 /* pdcrypto_sha1.c in Sources */,
+				8BB528D91C9B3B4B00E4B776 /* pdcrypto_md5_impl.cpp in Sources */,
+				8BB5290A1C9E08B000E4B776 /* pdcrypto_aes_cbc.c in Sources */,
+				8BB529051C9E02BC00E4B776 /* aes128.c in Sources */,
+				8BB528DD1C9B484100E4B776 /* pdcrypto_digest_init.c in Sources */,
+				8BB528FF1C9C21F600E4B776 /* pdcrypto_dummy.c in Sources */,
+				8BB528E11C9B487600E4B776 /* pdcrypto_digest_update.c in Sources */,
+				8BB528FB1C9B7B5700E4B776 /* pdcrypto_sha1_impl.cpp in Sources */,
+				8BB529071C9E02BC00E4B776 /* pdcrypto_aes_ecb.c in Sources */,
+				8B43BDD11C9B27B500E8D308 /* pdcrypto.c in Sources */,
+				8B43BDD91C9B360500E8D308 /* pdcrypto_digest_final.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B43BDD21C9B27B500E8D308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B43BDD31C9B27B500E8D308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B43BDD51C9B27B500E8D308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/xnu-2782.40.9/EXTERNAL_HEADERS",
+				);
+				INFOPLIST_FILE = pdcrypto/Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = org.puredarwin.driver.pdcrypto;
+				MODULE_START = pdcrypto_start;
+				MODULE_STOP = pdcrypto_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.10;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		8B43BDD61C9B27B500E8D308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/xnu-2782.40.9/EXTERNAL_HEADERS",
+				);
+				INFOPLIST_FILE = pdcrypto/Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = org.puredarwin.driver.pdcrypto;
+				MODULE_START = pdcrypto_start;
+				MODULE_STOP = pdcrypto_stop;
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.10;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B43BDC51C9B27B500E8D308 /* Build configuration list for PBXProject "pdcrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43BDD21C9B27B500E8D308 /* Debug */,
+				8B43BDD31C9B27B500E8D308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B43BDD41C9B27B500E8D308 /* Build configuration list for PBXNativeTarget "pdcrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43BDD51C9B27B500E8D308 /* Debug */,
+				8B43BDD61C9B27B500E8D308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B43BDC21C9B27B500E8D308 /* Project object */;
+}
